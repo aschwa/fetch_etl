@@ -1,0 +1,17 @@
+name: fetch_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - awscli
+  - black
+  - boto3
+  - psycopg2
+  - pydantic
+  - pip
+  - pip:
+      - awscli-local
+      - fastapi
+      - uvicorn[standard]
+      - pytest
